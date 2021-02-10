@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SchedulerApp: App {
+    @State private var schedule = Schedule.data[0]
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ClassListView(schedule: $schedule)
+            }
         }
     }
 }

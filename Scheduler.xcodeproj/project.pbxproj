@@ -11,10 +11,34 @@
 		3D043E9525C9C28F002F7B2D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043E9425C9C28F002F7B2D /* Tests_macOS.swift */; };
 		3D043E9725C9C28F002F7B2D /* SchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043E6E25C9C28C002F7B2D /* SchedulerApp.swift */; };
 		3D043E9825C9C28F002F7B2D /* SchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043E6E25C9C28C002F7B2D /* SchedulerApp.swift */; };
-		3D043E9925C9C28F002F7B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043E6F25C9C28C002F7B2D /* ContentView.swift */; };
-		3D043E9A25C9C28F002F7B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043E6F25C9C28C002F7B2D /* ContentView.swift */; };
 		3D043E9B25C9C28F002F7B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D043E7025C9C28F002F7B2D /* Assets.xcassets */; };
 		3D043E9C25C9C28F002F7B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D043E7025C9C28F002F7B2D /* Assets.xcassets */; };
+		3D043EB125C9C3B3002F7B2D /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043EB025C9C3B3002F7B2D /* Schedule.swift */; };
+		3D043EBB25C9C3D5002F7B2D /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043EBA25C9C3D5002F7B2D /* Class.swift */; };
+		3D043EBC25C9C3D5002F7B2D /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043EBA25C9C3D5002F7B2D /* Class.swift */; };
+		3D043EC125C9C3DD002F7B2D /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043EB025C9C3B3002F7B2D /* Schedule.swift */; };
+		3D043ED425C9C8CD002F7B2D /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043ED325C9C8CD002F7B2D /* ClassView.swift */; };
+		3D043ED525C9C8CD002F7B2D /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043ED325C9C8CD002F7B2D /* ClassView.swift */; };
+		3D043EDB25C9D173002F7B2D /* ClassUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043EDA25C9D173002F7B2D /* ClassUnitView.swift */; };
+		3D043EDC25C9D173002F7B2D /* ClassUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D043EDA25C9D173002F7B2D /* ClassUnitView.swift */; };
+		3D945FCF25CE00E900DA516D /* AddCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D945FCD25CE00E900DA516D /* AddCourseView.swift */; };
+		3D945FD525CEBF6C00DA516D /* SemesterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D945FD425CEBF6C00DA516D /* SemesterButton.swift */; };
+		3D945FD625CEBF6C00DA516D /* SemesterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D945FD425CEBF6C00DA516D /* SemesterButton.swift */; };
+		3D945FDC25CF376B00DA516D /* DetailSemesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D945FDB25CF376A00DA516D /* DetailSemesterView.swift */; };
+		3D945FDD25CF376B00DA516D /* DetailSemesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D945FDB25CF376A00DA516D /* DetailSemesterView.swift */; };
+		3D945FE425D43D6D00DA516D /* EditCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D945FE225D43D6D00DA516D /* EditCoursesView.swift */; };
+		3D94600525D4766700DA516D /* CourseUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94600425D4766700DA516D /* CourseUnit.swift */; };
+		3D94600625D4766700DA516D /* CourseUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94600425D4766700DA516D /* CourseUnit.swift */; };
+		3D94600C25D47AE500DA516D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94600B25D47AE500DA516D /* Course.swift */; };
+		3D94600D25D47AE500DA516D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94600B25D47AE500DA516D /* Course.swift */; };
+		3D94601F25D4860700DA516D /* EditSemesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94601E25D4860700DA516D /* EditSemesterView.swift */; };
+		3D94602025D4860700DA516D /* EditSemesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94601E25D4860700DA516D /* EditSemesterView.swift */; };
+		3DBCCF1225CDAE7B007B9847 /* ClassListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCCF1125CDAE7B007B9847 /* ClassListView.swift */; };
+		3DBCCF1325CDAE7B007B9847 /* ClassListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCCF1125CDAE7B007B9847 /* ClassListView.swift */; };
+		3DBCCF1925CDAE88007B9847 /* ClassListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCCF1825CDAE88007B9847 /* ClassListItemView.swift */; };
+		3DBCCF1A25CDAE88007B9847 /* ClassListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCCF1825CDAE88007B9847 /* ClassListItemView.swift */; };
+		3DBCCF2625CDB22D007B9847 /* TestClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCCF2525CDB22D007B9847 /* TestClasses.swift */; };
+		3DBCCF2F25CDB239007B9847 /* TestClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCCF2525CDB22D007B9847 /* TestClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		3D043E6E25C9C28C002F7B2D /* SchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerApp.swift; sourceTree = "<group>"; };
-		3D043E6F25C9C28C002F7B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D043E7025C9C28F002F7B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D043E7525C9C28F002F7B2D /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D043E7825C9C28F002F7B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +72,20 @@
 		3D043E9025C9C28F002F7B2D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D043E9425C9C28F002F7B2D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		3D043E9625C9C28F002F7B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D043EB025C9C3B3002F7B2D /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		3D043EBA25C9C3D5002F7B2D /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		3D043ED325C9C8CD002F7B2D /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		3D043EDA25C9D173002F7B2D /* ClassUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassUnitView.swift; sourceTree = "<group>"; };
+		3D945FCD25CE00E900DA516D /* AddCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseView.swift; sourceTree = "<group>"; };
+		3D945FD425CEBF6C00DA516D /* SemesterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterButton.swift; sourceTree = "<group>"; };
+		3D945FDB25CF376A00DA516D /* DetailSemesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSemesterView.swift; sourceTree = "<group>"; };
+		3D945FE225D43D6D00DA516D /* EditCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCoursesView.swift; sourceTree = "<group>"; };
+		3D94600425D4766700DA516D /* CourseUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseUnit.swift; sourceTree = "<group>"; };
+		3D94600B25D47AE500DA516D /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		3D94601E25D4860700DA516D /* EditSemesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSemesterView.swift; sourceTree = "<group>"; };
+		3DBCCF1125CDAE7B007B9847 /* ClassListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListView.swift; sourceTree = "<group>"; };
+		3DBCCF1825CDAE88007B9847 /* ClassListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListItemView.swift; sourceTree = "<group>"; };
+		3DBCCF2525CDB22D007B9847 /* TestClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +123,8 @@
 		3D043E6825C9C28B002F7B2D = {
 			isa = PBXGroup;
 			children = (
+				3D043ED225C9C8B8002F7B2D /* Views */,
+				3D043EAF25C9C38E002F7B2D /* Models */,
 				3D043E6D25C9C28B002F7B2D /* Shared */,
 				3D043E7725C9C28F002F7B2D /* iOS */,
 				3D043E7E25C9C28F002F7B2D /* macOS */,
@@ -99,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				3D043E6E25C9C28C002F7B2D /* SchedulerApp.swift */,
-				3D043E6F25C9C28C002F7B2D /* ContentView.swift */,
 				3D043E7025C9C28F002F7B2D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -138,6 +176,7 @@
 			children = (
 				3D043E8925C9C28F002F7B2D /* Tests_iOS.swift */,
 				3D043E8B25C9C28F002F7B2D /* Info.plist */,
+				3DBCCF2525CDB22D007B9847 /* TestClasses.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
@@ -149,6 +188,33 @@
 				3D043E9625C9C28F002F7B2D /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		3D043EAF25C9C38E002F7B2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D043EB025C9C3B3002F7B2D /* Schedule.swift */,
+				3D043EBA25C9C3D5002F7B2D /* Class.swift */,
+				3D94600425D4766700DA516D /* CourseUnit.swift */,
+				3D94600B25D47AE500DA516D /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D043ED225C9C8B8002F7B2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D043ED325C9C8CD002F7B2D /* ClassView.swift */,
+				3D043EDA25C9D173002F7B2D /* ClassUnitView.swift */,
+				3DBCCF1125CDAE7B007B9847 /* ClassListView.swift */,
+				3DBCCF1825CDAE88007B9847 /* ClassListItemView.swift */,
+				3D945FCD25CE00E900DA516D /* AddCourseView.swift */,
+				3D945FD425CEBF6C00DA516D /* SemesterButton.swift */,
+				3D945FDB25CF376A00DA516D /* DetailSemesterView.swift */,
+				3D945FE225D43D6D00DA516D /* EditCoursesView.swift */,
+				3D94601E25D4860700DA516D /* EditSemesterView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +374,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D043E9925C9C28F002F7B2D /* ContentView.swift in Sources */,
+				3D94600525D4766700DA516D /* CourseUnit.swift in Sources */,
+				3D043EBB25C9C3D5002F7B2D /* Class.swift in Sources */,
+				3D043ED425C9C8CD002F7B2D /* ClassView.swift in Sources */,
+				3D043EDB25C9D173002F7B2D /* ClassUnitView.swift in Sources */,
+				3DBCCF1225CDAE7B007B9847 /* ClassListView.swift in Sources */,
+				3D043EB125C9C3B3002F7B2D /* Schedule.swift in Sources */,
+				3D945FDC25CF376B00DA516D /* DetailSemesterView.swift in Sources */,
+				3DBCCF1925CDAE88007B9847 /* ClassListItemView.swift in Sources */,
 				3D043E9725C9C28F002F7B2D /* SchedulerApp.swift in Sources */,
+				3D94600C25D47AE500DA516D /* Course.swift in Sources */,
+				3DBCCF2F25CDB239007B9847 /* TestClasses.swift in Sources */,
+				3D94601F25D4860700DA516D /* EditSemesterView.swift in Sources */,
+				3D945FD525CEBF6C00DA516D /* SemesterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +394,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D043E9A25C9C28F002F7B2D /* ContentView.swift in Sources */,
+				3D043EBC25C9C3D5002F7B2D /* Class.swift in Sources */,
+				3D043ED525C9C8CD002F7B2D /* ClassView.swift in Sources */,
+				3D043EC125C9C3DD002F7B2D /* Schedule.swift in Sources */,
+				3D043EDC25C9D173002F7B2D /* ClassUnitView.swift in Sources */,
+				3DBCCF1325CDAE7B007B9847 /* ClassListView.swift in Sources */,
+				3D94600625D4766700DA516D /* CourseUnit.swift in Sources */,
+				3D945FCF25CE00E900DA516D /* AddCourseView.swift in Sources */,
+				3D94600D25D47AE500DA516D /* Course.swift in Sources */,
+				3DBCCF1A25CDAE88007B9847 /* ClassListItemView.swift in Sources */,
 				3D043E9825C9C28F002F7B2D /* SchedulerApp.swift in Sources */,
+				3D945FE425D43D6D00DA516D /* EditCoursesView.swift in Sources */,
+				3D945FDD25CF376B00DA516D /* DetailSemesterView.swift in Sources */,
+				3D94602025D4860700DA516D /* EditSemesterView.swift in Sources */,
+				3D945FD625CEBF6C00DA516D /* SemesterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBCCF2625CDB22D007B9847 /* TestClasses.swift in Sources */,
 				3D043E8A25C9C28F002F7B2D /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
